@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background-image: linear-gradient(
+90deg, #f66e6e, #f0d19aed);
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#bmivalue{
+    display: flex;
+}
+.chart{
+    width: 300px;
+    border: 2px solid black;
+    margin-top: 30px;
+    padding-bottom: 12px;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(224, 62, 95); */
+    background-color: #e44848;
+}
+td{
+    text-align: center;
+    padding: 7px;
+}
+tr{
+    height: 4px;
+}
+button{
+    /* background-color: rgb(245, 127, 150); */
+    background-color: #e44848;
+    border: 2px solid black;
+    width: 46%;
+    height: 35px;
+    border-radius: 40px;
+    
+}
+
+#logout a{
+    text-decoration: none;
+    color: black;
+}
+
+p{
+    font-size: larger;
+    color: black;
+    padding-top: 10px;
+    margin: 0;
+}
